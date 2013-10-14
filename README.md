@@ -2,13 +2,13 @@
 
 [jQuery-File-Plugin](https://github.com/blueimp/jQuery-File-Upload) is a file upload plugin written by [Sebastian Tschan](https://github.com/blueimp). jQuery File Upload features multiple file selection, drag&drop support, progress bars and preview images for jQuery. Supports cross-domain, chunked and resumable file uploads and client-side image resizing.
 
-jquery-fileupload-rails is a library that integrates jQuery File Upload for Rails 3.1 Asset Pipeline (Rails 3.2 supported).
+jquery-fileupload-rails is a library that integrates jQuery File Upload for Rails 3.1> Asset Pipeline (Rails 3.2 and 4.0 supported).
 
 ## Plugin versions
 
-* jQuery File Upload User Interface Plugin 6.11
-* jQuery File Upload Plugin 5.19.3
-* jQuery UI Widget 1.9.1+amd
+* jQuery File Upload User Interface Plugin 8.8.6
+* jQuery File Upload Plugin 5.32.6
+* jQuery UI Widget 1.10.3+amd
 
 ## Installing Gem
 
@@ -22,15 +22,24 @@ Require jquery-fileupload in your app/assets/application.js file.
 
 The snippet above will add the following js files to the mainfest file.
 
-    //= require jquery-fileupload/vendor/jquery.ui.widget
-    //= require jquery-fileupload/vendor/load-image
-    //= require jquery-fileupload/vendor/canvas-to-blob
-    //= require jquery-fileupload/vendor/tmpl
-    //= require jquery-fileupload/jquery.iframe-transport
-    //= require jquery-fileupload/jquery.fileupload
-    //= require jquery-fileupload/jquery.fileupload-fp
-    //= require jquery-fileupload/jquery.fileupload-ui
-    //= require jquery-fileupload/locale
+    //=require jquery-fileupload/vendor/jquery.ui.widget
+    //=require jquery-fileupload/vendor/tmpl
+    //=require jquery-fileupload/vendor/load-image
+    //=require jquery-fileupload/vendor/load-image-ios
+    //=require jquery-fileupload/vendor/load-image-orientation
+    //=require jquery-fileupload/vendor/load-image-meta
+    //=require jquery-fileupload/vendor/load-image-exif
+    //=require jquery-fileupload/vendor/load-image-exif-map
+    //=require jquery-fileupload/vendor/canvas-to-blob
+    //=require jquery-fileupload/jquery.iframe-transport
+    //=require jquery-fileupload/jquery.fileupload
+    //=require jquery-fileupload/jquery.fileupload-image
+    //=require jquery-fileupload/jquery.fileupload-process
+    //=require jquery-fileupload/jquery.fileupload-audio
+    //=require jquery-fileupload/jquery.fileupload-video
+    //=require jquery-fileupload/jquery.fileupload-validate
+    //=require jquery-fileupload/jquery.fileupload-ui
+    //=require jquery-fileupload/locale
 
 If you only need the basic files, just add the code below to your application.js file. [Basic setup guide](https://github.com/blueimp/jQuery-File-Upload/wiki/Basic-plugin)
 
