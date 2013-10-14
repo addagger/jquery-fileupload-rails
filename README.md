@@ -14,7 +14,7 @@ jquery-fileupload-rails is a library that integrates jQuery File Upload for Rail
 
 ## Installing Gem
 
-    gem "jquery-fileupload-rails"
+    gem "jquery-fileupload-rails", :github => 'addagger/jquery-fileupload-rails'
 
 ## Using the javascripts
 
@@ -73,8 +73,8 @@ The `jquery.iframe-transport` fallback transport has some special caveats regard
 
     Rails.application.config.middleware.use JQuery::FileUpload::Rails::Middleware
 
-## [Example app](https://github.com/tors/jquery-fileupload-rails-paperclip-example)
-This app uses paperclip and twitter-bootstrap-rails
+## [Example app](https://github.com/addagger/jquery-fileupload-rails-example)
+This app uses paperclip and [anjlab-bootstrap-rails](https://github.com/anjlab/bootstrap-rails)
 
 You can also check out Ryan Bate's RailsCast [jQuery File Upload episode](http://railscasts.com/episodes/381-jquery-file-upload). You will
 need a pro account to watch it though.
