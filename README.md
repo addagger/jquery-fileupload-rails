@@ -10,6 +10,7 @@ jquery-fileupload-rails is a library that integrates jQuery File Upload for Rail
 * jQuery File Upload Plugin 5.32.6
 * jQuery UI Widget 1.10.3+amd
 * JavaScript Load Image 1.9.0
+* Jcrop v0.9.12 (build:20130202) (optional)
 
 ## Installing Gem
 
@@ -61,6 +62,10 @@ The basic setup only includes the following files:
 Require the stylesheet file to app/assets/stylesheets/application.css
 
     *= require jquery.fileupload-ui
+
+[Jcrop](https://github.com/tapmodo/Jcrop) stylesheet
+
+    *= require vendor/jquery.Jcrop.min
 
 ## Using the middleware
 
