@@ -16,14 +16,14 @@
 }
 .progress-animated .progress-bar,
 .progress-animated .bar {
-  background: url(<%= asset_path 'progressbar.gif' %>) !important;
+  background: image-url("progressbar.gif") !important;
   filter: none;
 }
 .fileupload-loading {
   float: right;
   width: 32px;
   height: 32px;
-  background: url(<%= asset_path 'loading.gif' %>) center no-repeat;
+  background: image-url("loading.gif") center no-repeat;
   background-size: contain;
   display: none;
 }
