@@ -1,4 +1,4 @@
-# jQuery File Upload for Rails
+# jQuery File Upload for Rails (updated at Feb'2016)
 
 [jQuery-File-Plugin](https://github.com/blueimp/jQuery-File-Upload) is a file upload plugin written by [Sebastian Tschan](https://github.com/blueimp). jQuery File Upload features multiple file selection, drag&drop support, progress bars and preview images for jQuery. Supports cross-domain, chunked and resumable file uploads and client-side image resizing.
 
@@ -6,11 +6,8 @@ jquery-fileupload-rails is a library that integrates jQuery File Upload for Rail
 
 ## Plugin versions
 
-* jQuery File Upload User Interface Plugin 8.8.6
-* jQuery File Upload Plugin 5.32.6
-* jQuery UI Widget 1.10.3+amd
-* JavaScript Load Image 1.9.0
-* Jcrop v0.9.12 (build:20130202) (optional)
+* jQuery File Upload 9.12.1
+* Jcrop v2.0.4 (build:20151117) (optional)
 
 ## Installing Gem
 
@@ -45,7 +42,7 @@ The snippet above will add the following js files to the mainfest file.
 
 To add [Jcrop](https://github.com/tapmodo/Jcrop) scripts:
 
-    //= require jquery-fileupload/vendor/jquery.Jcrop.min
+    //= require jquery-fileupload/vendor/Jcrop.min
 
 If you only need the basic files, just add the code below to your application.js file. [Basic setup guide](https://github.com/blueimp/jQuery-File-Upload/wiki/Basic-plugin)
 
@@ -65,7 +62,7 @@ Require the stylesheet file to app/assets/stylesheets/application.css
 
 [Jcrop](https://github.com/tapmodo/Jcrop) stylesheet
 
-    *= require vendor/jquery.Jcrop.min
+    *= require vendor/Jcrop.min
 
 ## Using the middleware
 

@@ -1,11 +1,6 @@
 //= require jquery-fileupload/vendor/jquery.ui.widget
 //= require jquery-fileupload/vendor/tmpl.min
-//= require jquery-fileupload/vendor/load-image.min
-//= require jquery-fileupload/vendor/load-image-ios
-//= require jquery-fileupload/vendor/load-image-orientation
-//= require jquery-fileupload/vendor/load-image-meta
-//= require jquery-fileupload/vendor/load-image-exif
-//= require jquery-fileupload/vendor/load-image-exif-map
+//= require jquery-fileupload/vendor/load-image.all.min
 //= require jquery-fileupload/vendor/canvas-to-blob.min
 //= require jquery-fileupload/jquery.iframe-transport
 //= require jquery-fileupload/jquery.fileupload
